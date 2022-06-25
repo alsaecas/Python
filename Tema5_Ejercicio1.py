@@ -10,8 +10,8 @@ def area_circulo(radio):
 
 
 if __name__ == '__main__':
-    base = float(input("Introduce la base del triángulo: "))
-    altura = float(input("Introduce la altura del triángulo: "))
-    print("El área del triángulo es:" + str(area_triangulo(base, altura)))
-    radio = float(input("Introduce el radio del círculo: "))
-    print("El área del círculo es:" + str(area_circulo(radio)))
+    b = float(input("Introduce la base del triángulo: "))
+    a = float(input("Introduce la altura del triángulo: "))
+    print("El área del triángulo es:" + str(area_triangulo(b, a)))
+    r = float(input("Introduce el radio del círculo: "))
+    print("El área del círculo es:" + str(area_circulo(r)))
