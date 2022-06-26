@@ -12,3 +12,4 @@ class Coche(Vehiculo):
 c = Coche
 print(c._velocidad)
 print(c._color)
+print(c._puertas)
