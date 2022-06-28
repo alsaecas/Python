@@ -21,7 +21,7 @@ if __name__ == '__main__':
     r2.grid(column=0, row=2, pady=5, padx=5)
     r3.grid(column=0, row=3, pady=5, padx=5)
 
-    texto = ttk.Label(window, text=seleccionado.get())
+    texto = ttk.Label(window, text='')
     texto.grid(column=3, row=1, pady=5, padx=5)
 
     boton = ttk.Button(window, text='Reset', command=reset)
